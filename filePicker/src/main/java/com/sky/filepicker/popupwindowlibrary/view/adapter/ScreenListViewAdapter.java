@@ -38,7 +38,7 @@ public class ScreenListViewAdapter extends BaseAdapter {
     public ScreenListViewAdapter(Activity context, List<FiltrateBean> dictList) {
         this.context = context;
         this.dictList = dictList;
-        strokeColor = context.getResources().getColor(R.color.colorPrimary);
+        strokeColor = context.getResources().getColor(R.color.blue);
         titleColor = context.getResources().getColor(R.color.black);
     }
 
